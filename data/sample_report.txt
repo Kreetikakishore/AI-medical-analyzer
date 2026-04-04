@@ -1,0 +1,10 @@
+Patient: John Doe
+Age: 45 years old
+Gender: Male
+
+The patient presents with hypertension and type 2 diabetes. 
+He has been prescribed Metformin and Lisinopril. 
+Patient also reports mild fever and infection in the lower respiratory tract.
+Blood pressure is 145/90 mmHg. Blood sugar levels are elevated at 180 mg/dL.
+Patient is advised to follow a low-sugar diet and exercise regularly.
+Follow-up appointment scheduled in 2 weeks.
