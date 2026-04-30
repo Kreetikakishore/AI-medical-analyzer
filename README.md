@@ -48,6 +48,8 @@ AI-MEDICAL-ANAIYZER/
 │
 └── frontend/
     └── index.html        # User interface
+
+
 ⚙️ Installation Guide
 1 Clone the Repository
 git clone https://github.com/your-username/AI-MEDICAL-ANAIYZER.git
