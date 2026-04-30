@@ -42,3 +42,18 @@ This project demonstrates the practical use of Artificial Intelligence in health
 | Pandas | Data handling |
 | HTML/CSS/JS | Frontend development |
 | Python Multipart | File upload handling |
+
+---
+4. Folder Structure
+   AI-MEDICAL-ANAIYZER/
+│
+├── app.py                  # Main FastAPI backend server
+├── requirements.txt        # Required dependencies
+├── README.md               # Project documentation
+│
+├── data/
+│   ├── mtsamples.csv
+│   └── sample_report.txt
+│
+└── frontend/
+    └── index.html          # Frontend medical dashboard
