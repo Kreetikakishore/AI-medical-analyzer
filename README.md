@@ -1,114 +1,44 @@
 # 🩺 AI Medical Report Analyzer
 
-AI Medical Report Analyzer is an intelligent Natural Language Processing (NLP) based healthcare application that analyzes uploaded medical reports and automatically extracts important patient information along with generating a concise AI summary.
+> An intelligent FastAPI-based healthcare text analysis system that extracts important patient medical entities and generates an AI-based summary from uploaded medical reports.
 
-The system is built using **FastAPI, Python, Regular Expressions, Pandas, and HTML frontend** to simulate an AI-assisted clinical report understanding tool.
+## 1. Project Overview
 
----
+AI Medical Report Analyzer is a mini healthcare intelligence application designed to process unstructured patient medical text reports and automatically identify useful clinical information.
 
-## 🚀 Features
+The uploaded report is analyzed using Python-based Natural Language Processing logic, where:
 
-- Upload patient medical report files
-- Automatically extract important medical entities such as:
-  - Age
-  - Gender
-  - Diseases/Conditions
-  - Medications
-- Generate AI-based concise medical report summary
-- REST API powered by FastAPI
-- Cross-Origin enabled frontend-backend integration
-- Lightweight and fast medical text analysis
+- patient details are extracted,
+- disease names are identified,
+- medication mentions are detected,
+- and an AI-generated concise medical summary is produced.
 
----
+This project demonstrates the practical use of Artificial Intelligence in healthcare documentation analysis.
+## 2. Key Features
 
-## 🧠 Technologies Used
+✅ Upload patient medical text report file  
+✅ Automatic extraction of:
+- Age
+- Gender
+- Medical Conditions
+- Prescribed Medications
 
-- Python
-- FastAPI
-- Uvicorn
-- Pandas
-- Regex (NLP Entity Extraction)
-- HTML
-- JavaScript
-- CSS
+✅ AI-based summary generation  
+✅ FastAPI REST API backend  
+✅ Frontend medical dashboard  
+✅ Word count calculation of original report  
+✅ Cross-Origin enabled browser communication
 
 ---
 
-## 📁 Project Structure
+## 3. Technology Stack
 
-```bash
-AI-MEDICAL-ANAIYZER/
-│
-├── app.py                # FastAPI backend server
-├── requirements.txt      # Required dependencies
-│
-├── data/
-│   ├── mtsamples.csv
-│   └── sample_report.txt
-│
-└── frontend/
-    └── index.html        # User interface
-
-
-⚙️ Installation Guide
-1 Clone the Repository
-git clone https://github.com/your-username/AI-MEDICAL-ANAIYZER.git
-cd AI-MEDICAL-ANAIYZER
-2 Install Dependencies
-pip install -r requirements.txt
-3 Run the FastAPI Server
-uvicorn app:app --reload
-🌐 Open in Browser
-
-After server starts, open:
-
-http://127.0.0.1:8000
-
-FastAPI root status endpoint will show:
-
-{"status":"AI Medical Report Analyzer is running"}
-📡 API Endpoint for Medical Report Analysis
-POST /analyze
-
-Upload a medical text file and get:
-
-Extracted entities
-AI generated summary
-Original report word count
-🔍 Core Functionalities Implemented
-✅ Medical Entity Extraction
-
-Using Regular Expressions, the system identifies:
-
-Patient Age
-Patient Gender
-Existing Medical Conditions
-Mentioned Medicines
-✅ AI Report Summarization
-
-Important clinical sentences are ranked based on medical keywords such as:
-
-diagnosis
-treatment
-blood pressure
-sugar
-medication
-infection
-symptoms
-
-Top scored sentences are selected to generate an automatic summary.
-
-🎯 Objective of the Project
-
-This project demonstrates how Artificial Intelligence and Natural Language Processing can assist in understanding unstructured medical reports and generating quick patient insights automatically.
-
-It serves as an academic mini project for AI in healthcare applications.
-
-⚠️ Disclaimer
-
-This tool is developed only for educational and demonstration purposes.
-It is not intended for real medical diagnosis or professional healthcare decisions.
-
-👩‍💻 Author
-
-Developed by Kreetika Kishore
+| Technology | Purpose |
+|------------|---------|
+| Python | Core programming |
+| FastAPI | Backend API framework |
+| Uvicorn | ASGI server |
+| Regex | Medical entity extraction |
+| Pandas | Data handling |
+| HTML/CSS/JS | Frontend development |
+| Python Multipart | File upload handling |
