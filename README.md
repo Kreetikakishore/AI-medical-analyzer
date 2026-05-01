@@ -168,12 +168,14 @@ Uses a **keyword scoring** approach to identify the most medically relevant sent
 
 ---
 
+
+## 📸 Demo
+
+<img width="1112" height="585" alt="Screenshot 2026-05-01 093924" src="https://github.com/user-attachments/assets/05071fcf-06f3-4c90-9b98-d539c5ed0b6a" />
+<img width="674" height="1024" alt="Screenshot 2026-05-01 093958" src="https://github.com/user-attachments/assets/8254c215-70cc-4209-8811-1a77ea2aada6" />
+
+---
 ## 📄 Author
 
 Kreetika Kishore
-
----
-📸 Demo
-<img width="1112" height="585" alt="Screenshot 2026-05-01 093924" src="https://github.com/user-attachments/assets/05071fcf-06f3-4c90-9b98-d539c5ed0b6a" />
-<img width="674" height="1024" alt="Screenshot 2026-05-01 093958" src="https://github.com/user-attachments/assets/8254c215-70cc-4209-8811-1a77ea2aada6" />
 
